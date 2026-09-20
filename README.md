@@ -4,6 +4,10 @@ RetailGrowth AI is a multi-agent machine-learning platform designed to identify 
 
 The system combines demand forecasting, promotion optimisation and market-basket analysis. A Supervisor Agent reviews the specialist outputs and creates a prioritised management decision queue.
 
+## Live Demo
+
+[Open the RetailGrowth AI Dashboard](https://retailgrowth-ai-yogesh.streamlit.app)
+
 > This portfolio prototype uses synthetic retail data. It does not contain confidential Tesco or customer information.
 
 ## Business objectives
