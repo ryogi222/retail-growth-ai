@@ -3,6 +3,7 @@
 RetailGrowth AI is a multi-agent machine-learning platform designed to identify opportunities for increasing retail sales and profit.
 
 The system combines demand forecasting, promotion optimisation and market-basket analysis. A Supervisor Agent reviews the specialist outputs and creates a prioritised management decision queue.
+[![RetailGrowth AI Tests](https://github.com/ryogi222/retail-growth-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/ryogi222/retail-growth-ai/actions/workflows/tests.yml)
 
 ## Live Demo
 
