@@ -7,9 +7,11 @@ The system combines demand forecasting, promotion optimisation and market-basket
 ## Live Demo
 
 [Open the RetailGrowth AI Dashboard](https://retailgrowth-ai-yogesh.streamlit.app)
+ 
+This portfolio prototype uses synthetic retail data. It does not contain confidential Tesco or customer information.
+## Dashboard Preview
 
-> This portfolio prototype uses synthetic retail data. It does not contain confidential Tesco or customer information.
-
+![RetailGrowth AI Dashboard](assets/dashboard.png)
 ## Business objectives
 
 - Increase sales and gross profit
