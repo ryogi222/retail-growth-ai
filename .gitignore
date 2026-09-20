@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and models
+data/*.csv
+models/*.joblib
+
+# Generated reports
+reports/*.csv
+reports/*.json
+reports/figures/*.png
+
+# Logs
+*.log

@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+xgboost
+mlxtend
+streamlit
+plotly
+joblib
+openpyxl
+python-dotenvpytest
