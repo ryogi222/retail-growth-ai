@@ -1,4 +1,5 @@
 from pathlib import Path
+from bootstrap import ensure_project_artifacts
 import json
 
 import pandas as pd
@@ -17,7 +18,8 @@ st.set_page_config(
     page_icon="🧠",
     layout="wide",
 )
-
+with st.spinner("Loading Supervisor Agent outputs..."):
+    ensure_project_artifacts()
 st.markdown(
     """
     <style>

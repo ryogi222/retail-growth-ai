@@ -1,11 +1,11 @@
 from pathlib import Path
-
+from bootstrap import ensure_project_artifacts
 import joblib
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-
+ 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -17,7 +17,10 @@ st.set_page_config(
     page_icon="📈",
     layout="wide",
 )
-
+with st.spinner(
+    "Preparing the AI models and demonstration data..."
+):
+    ensure_project_artifacts()
 st.markdown(
     """
     <style>
