@@ -7,4 +7,5 @@ streamlit
 plotly
 joblib
 openpyxl
-python-dotenvpytest
+python-dotenv
+pytest
